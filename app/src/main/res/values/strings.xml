@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Gobblet Noob</string>
+    <string name="menu_options">Options</string>
+    <string name="title_activity_gobblet">Gobblet Noob</string>
+    <string name="initializing">Initializing</string>
+    <string name="waitWhitePick">White\'s move</string>
+    <string name="waitBlackPick">Black\'s move</string><string name="waitWhitePlace">White\'s move</string>
+    
+    <string name="waitBlackPlace">Black\'s move</string>
+    <string name="winWhite">White wins!</string>
+    <string name="winBlack">Black wins!</string>
+    <string name="menu_new">New Game</string>
+    <string name="menu_help">Help</string>
+    <string name="button_done">Done</string>
+    <string name="help_text">The object of the game is to get 4 of your cups in a row. Two players each have 12 inverted cups initially arranged in 3 nested stacks off the board. White moves first. Cups may be placed over smaller cups. Cups moved from off the board must be placed on an empty position unless the cup they cover is one of an opposing 3-in-a-row.
+You lose if you uncover a win unless you can cover another cup in the win. Draws can occur by agreement or by moves repeated 3 times. If you cannot place a lifted piece you lose.
+
+Gobblet was designed by Thierry Denoual, co-founder of Blue Orange Games.</string>
+    <string name="help_title">Help</string>
+    <string name="white_player">White Player</string>
+    <string name="black_player">Black Player</string>
+    <string name="options_title">Options</string>
+    <string-array name="players">
+        <item>Manual (you)</item>
+        <item>Random Moves</item>
+        <item>Dumb AI</item>
+        <item>Decent AI</item>
+        <item>Better AI</item>
+    </string-array>
+    <string name="thinkingWhite">White thinking</string>
+    <string name="thinkingBlack">Black thinking</string>
+    <string name="white_first">White moves first</string>
+    <string name="menu_undo">Undo</string>
+    <string name="undoing">Undoing</string>
+
+</resources>

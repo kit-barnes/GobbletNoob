@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/layout_options"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/white_player"
+    />
+    <Spinner 
+        android:id="@+id/white_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginBottom="10dip"
+		android:layout_marginLeft="36dip"
+        android:prompt="@string/white_player"
+    />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/black_player"
+    />
+    <Spinner 
+        android:id="@+id/black_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:layout_marginBottom="26dip"
+		android:layout_marginLeft="36dip"
+        android:prompt="@string/black_player"
+    />
+
+	<Button android:id="@+id/options_done_button"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="@string/button_done"
+	/>
+</LinearLayout>
